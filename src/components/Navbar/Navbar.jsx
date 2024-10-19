@@ -6,8 +6,6 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
-
-
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleNav = () => {
@@ -63,8 +61,7 @@ const Navbar = () => {
   </span>
 </a>
 </div>
-            
-       
+         
         <div onClick={handleNav}  className="block md:hidden">
             {
                 nav ?  <AiOutlineClose size={20} /> : 

@@ -13,8 +13,6 @@ import About from "./components/Pages/About";
 import Navbar from'./components/Navbar/Navbar'
 import Gallery from "./components/Pages/Gallery";
 
-
-
 function App() {
 	return (
 		<div className="bg-slate-900">
@@ -46,7 +44,7 @@ function App() {
 							About
 						</NavLink>
 					</div>
-          <div className="m-[-70px] ml-[10rem]">
+       				   <div className="m-[-70px] ml-[10rem]">
 						<NavLink
 							to="/Gallery"
 							style={({ isActive }) => ({
